@@ -1,7 +1,10 @@
 require("./bootstrap");
 
 import Vue from "vue";
+
 import vuetify from "./Plugins/vuetify";
+import 'vuetify/dist/vuetify.min.css';
+import '@mdi/font/css/materialdesignicons.css'
 
 import { InertiaApp } from "@inertiajs/inertia-vue";
 import { InertiaForm } from "laravel-jetstream";

@@ -10,15 +10,9 @@
         <div class="py-6">
             <div class="bg-white rounded p-6 max-w-7xl mx-auto sm:px-6 lg:px-8 overflow-hidden shadow-xl sm:rounded-lg">
                 <div>
-                    <v-alert v-model="alert" dismissible color="teal" border="left" elevation="2" colored-border icon="mdi-twitter">
+                    <v-alert v-model="alert" dismissible color="blue" border="left" elevation="2" colored-border icon="mdi-twitter">
                         You've got <strong>5</strong> new updates on your timeline!.
                     </v-alert>
-
-                    <div class="text-center">
-                        <v-btn v-if="!alert" dark @click="alert = true">
-                            Reset Alert
-                        </v-btn>
-                    </div>
                 </div>
 
                 <hr>
@@ -157,7 +151,3 @@ export default {
     },
 };
 </script>
-
-<style>
-@import "vuetify/dist/vuetify.min.css";
-</style>
